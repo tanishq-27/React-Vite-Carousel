@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 32px;
+    font-family: PT Sans, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    background-image: url(../Assests/Images/bg2.jpg);
+  }
+  
+  .shade {
+    position: absolute;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .modal {
+    position: absolute;
+  }
+  
+  .modal h1 {
+    background: -webkit-linear-gradient(60deg, #f5b8bb, #bddcf4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
